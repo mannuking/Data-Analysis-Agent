@@ -19,6 +19,8 @@ import streamlit as st
 from openai import OpenAI
 import matplotlib.pyplot as plt
 from typing import List, Dict, Any, Tuple
+from dotenv import load_dotenv
+load_dotenv()
 
 # === Configuration ===
 api_key = os.environ.get("NVIDIA_API_KEY")
